@@ -1,7 +1,9 @@
 TaskPro API Test Automation and Quality Assurance Reporting
+
 This repository contains all documentation, test scenarios, and reports related to the API test automation and Quality Assurance (QA) processes for the TaskPro application. Our goal is to ensure the reliability and performance of the API.
 
 File Descriptions
+
 Checklist.pdf: Contains the plans and status of manually executed tests.
 
 Jira Bug Report.pdf: Includes documents related to all bugs found during the project and reported through the bug tracking system (Jira).
