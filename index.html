@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskPro API Test ve Kalite Güvence Raporlama</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+        }
+        .container {
+            max-width: 960px;
+        }
+        .card {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+        }
+        .link-button {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 600;
+            background-color: #238636;
+            color: #fff;
+            transition: background-color 0.2s, transform 0.2s;
+        }
+        .link-button:hover {
+            background-color: #2ea043;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="p-8">
+
+    <div class="container mx-auto">
+        
+        <!-- Header Section -->
+        <header class="text-center py-12">
+            <h1 class="text-4xl sm:text-5xl font-bold text-white mb-4">TaskPro API Test ve QA Raporlama</h1>
+            <p class="text-lg text-gray-400">Bu depo, TaskPro uygulamasının API test otomasyonu ve Kalite Güvence süreçlerine ilişkin tüm belgeleri, test senaryolarını ve raporları içerir. Amacımız, API'nin güvenilirliğini ve performansını sağlamaktır.</p>
+        </header>
+
+        <!-- Main Content Area -->
+        <main>
+            
+            <!-- File Descriptions Section -->
+            <section class="mb-12">
+                <div class="card p-8 rounded-lg shadow-xl">
+                    <h2 class="text-2xl font-semibold mb-6">Dosya Açıklamaları</h2>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-3 mt-1">&#10003;</span>
+                            <div>
+                                <h3 class="font-medium text-lg text-gray-200">`Checklist.pdf`</h3>
+                                <p class="text-gray-400">Manuel olarak yürütülen testlerin planlarını ve durumunu içerir.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-3 mt-1">&#10003;</span>
+                            <div>
+                                <h3 class="font-medium text-lg text-gray-200">`Jira Bug Report.pdf`</h3>
+                                <p class="text-gray-400">Proje sırasında bulunan ve hata takip sistemi (Jira) aracılığıyla raporlanan tüm hatalara ilişkin belgeleri içerir.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-3 mt-1">&#10003;</span>
+                            <div>
+                                <h3 class="font-medium text-lg text-gray-200">`Performance Test Report.pdf`</h3>
+                                <p class="text-gray-400">API'nin yük ve stres altındaki davranışını analiz etmek için yapılan testlerin sonuçlarını içerir.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-green-500 mr-3 mt-1">&#10003;</span>
+                            <div>
+                                <h3 class="font-medium text-lg text-gray-200">`Postman-Newman Report.pdf`</h3>
+                                <p class="text-gray-400">Newman aracılığıyla Postman koleksiyonlarını çalıştırarak elde edilen otomasyon test raporlarını içerir.</p>
+                            </div>
+                        </li>
+                         <li class="flex items-start">
+                            <span class="text-green-500 mr-3 mt-1">&#10003;</span>
+                            <div>
+                                <h3 class="font-medium text-lg text-gray-200">`Test Report.pdf`</h3>
+                                <p class="text-gray-400">Tüm test türlerinin sonuçlarını bir araya getiren ve projenin genel test durumunu özetleyen kapsamlı bir rapordur.</p>
+                            </div>
+                        </li>
+                         <li class="flex items-start">
+                            <span class="text-green-500 mr-3 mt-1">&#10003;</span>
+                            <div>
+                                <h3 class="font-medium text-lg text-gray-200">`TestRail-Cases Report.pdf`</h3>
+                                <p class="text-gray-400">TestRail platformunda oluşturulan test senaryolarına ve çalıştırılan testlere ilişkin raporları içerir.</p>
+                            </div>
+                        </li>
+                         <li class="flex items-start">
+                            <span class="text-green-500 mr-3 mt-1">&#10003;</span>
+                            <div>
+                                <h3 class="font-medium text-lg text-gray-200">`TestRail-RUN Report.pdf`</h3>
+                                <p class="text-gray-400">TestRail üzerinde yürütülen test koşullarına (run) ilişkin sonuç raporlarını içerir.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            
+            <!-- Key Link Section (Call to Action) -->
+            <section class="text-center">
+                <h2 class="text-2xl font-semibold mb-4 text-white">Newman Test Raporunu Görüntüle</h2>
+                <p class="text-gray-400 mb-6">En güncel otomasyon test sonuçlarına anında erişin ve projenin durumunu inceleyin.</p>
+                <a href="https://aysenurb01.github.io/TaskPro-API-QA/TaskPro%20API%20Tests-2025-08-21-10-10-52-333-0.html" class="link-button">Raporu Görüntüle</a>
+            </section>
+
+        </main>
+        
+        <!-- Footer Section -->
+        <footer class="text-center text-gray-500 mt-12 pt-8 border-t border-gray-700">
+            <p>&copy; 2025 TaskPro Project. Tüm hakları saklıdır.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
