@@ -11,20 +11,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
+        /* Genel sayfa stili */
         body {
             font-family: 'Inter', sans-serif;
             background-color: #0d1117;
             color: #c9d1d9;
+            line-height: 1.6;
         }
 
-        /* Ana konteyner */
+        /* Ana içerik konteyneri */
         .container {
             max-width: 960px;
             margin: auto;
             padding: 2rem;
         }
-        
-        /* Kart stili */
+
+        /* Kart benzeri kutu stili */
         .card {
             background-color: #161b22;
             border: 1px solid #30363d;
@@ -34,9 +36,11 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
-        /* Buton stili */
+        /* Bağlantı butonu stili */
         .link-button {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             background-color: #21262d;
             color: #58a6ff;
             font-weight: 600;
@@ -93,6 +97,11 @@
             .card {
                 padding: 1.5rem;
             }
+
+            .link-button {
+                width: 100%;
+                text-align: center;
+            }
         }
     </style>
 </head>
@@ -110,49 +119,22 @@
             <p class="text-[#8b949e] mb-4">Aşağıdaki belgeler, TaskPro uygulamasının API test ve Kalite Güvence (QA) süreçlerine ilişkin tüm dokümantasyon, test senaryoları ve raporları içerir.</p>
 
             <ul class="space-y-4">
-                <li class="flex items-center justify-between">
-                    <span class="flex-1">Checklist.pdf: Yürütülen testlerin planlarını ve durumunu içerir.</span>
+                <li class="flex flex-col sm:flex-row items-start sm:items-center justify-between">
+                    <span class="flex-1 mb-2 sm:mb-0">Checklist.pdf: Yürütülen testlerin planlarını ve durumunu içerir.</span>
                     <a href="https://raw.githubusercontent.com/aysenurb01/TaskPro-API-QA/main/Checklist.pdf" class="link-button">Görüntüle</a>
                 </li>
-                <li class="flex items-center justify-between">
-                    <span class="flex-1">Jira Bug Report.pdf: Hata takip sistemi Jira aracılığıyla kaydedilen tüm hataları içerir.</span>
+                <li class="flex flex-col sm:flex-row items-start sm:items-center justify-between">
+                    <span class="flex-1 mb-2 sm:mb-0">Jira Bug Report.pdf: Hata takip sistemi Jira aracılığıyla kaydedilen tüm hataları içerir.</span>
                     <a href="https://raw.githubusercontent.com/aysenurb01/TaskPro-API-QA/main/Jira%20Bug%20Report.pdf" class="link-button">Görüntüle</a>
                 </li>
-                <li class="flex items-center justify-between">
-                    <span class="flex-1">Performance Test-Report.pdf: Performans testleri ve sonuçlarını gösterir.</span>
+                <li class="flex flex-col sm:flex-row items-start sm:items-center justify-between">
+                    <span class="flex-1 mb-2 sm:mb-0">Performance Test-Report.pdf: Performans testleri ve sonuçlarını gösterir.</span>
                     <a href="https://raw.githubusercontent.com/aysenurb01/TaskPro-API-QA/main/Performance%20Test-Report.pdf" class="link-button">Görüntüle</a>
                 </li>
-                <li class="flex items-center justify-between">
-                    <span class="flex-1">README.md: Depo hakkında genel bilgileri içerir.</span>
+                <li class="flex flex-col sm:flex-row items-start sm:items-center justify-between">
+                    <span class="flex-1 mb-2 sm:mb-0">README.md: Depo hakkında genel bilgileri içerir.</span>
                     <a href="https://raw.githubusercontent.com/aysenurb01/TaskPro-API-QA/main/README.md" class="link-button">Görüntüle</a>
                 </li>
-                <li class="flex items-center justify-between">
-                    <span class="flex-1">TaskPro API Tests-2025-08-21-10-10-52-333-0.html: Otomatik API testlerinin sonuçlarını içerir.</span>
-                    <a href="https://raw.githubusercontent.com/aysenurb01/TaskPro-API-QA/main/TaskPro%20API%20Tests-2025-08-21-10-10-52-333-0.html" class="link-button">Görüntüle</a>
-                </li>
-                <li class="flex items-center justify-between">
-                    <span class="flex-1">Test Report.pdf: Test senaryolarının genel raporudur.</span>
-                    <a href="https://raw.githubusercontent.com/aysenurb01/TaskPro-API-QA/main/Test%20Report.pdf" class="link-button">Görüntüle</a>
-                </li>
-                <li class="flex items-center justify-between">
-                    <span class="flex-1">TestRail-Cases Report.pdf: TestRail'deki test senaryoları ve statüleri hakkında bir rapor.</span>
-                    <a href="https://raw.githubusercontent.com/aysenurb01/TaskPro-API-QA/main/TestRail-Cases%20Report.pdf" class="link-button">Görüntüle</a>
-                </li>
-                <li class="flex items-center justify-between">
-                    <span class="flex-1">TestRail-RUN Report.pdf: TestRail'deki test koşularının sonuçlarını gösteren bir rapor.</span>
-                    <a href="https://raw.githubusercontent.com/aysenurb01/TaskPro-API-QA/main/TestRail-RUN%20Report.pdf" class="link-button">Görüntüle</a>
-                </li>
-            </ul>
-        </section>
-
-        <!-- Ek Bilgi veya İletişim Bölümü -->
-        <footer class="text-center mt-12">
-            <div class="card p-6">
-                <h3 class="text-xl font-bold text-[#e6edf3] mb-4 border-b border-[#30363d] pb-2">İletişim</h3>
-                <p class="text-[#8b949e]">Sorularınız veya geri bildirimleriniz için lütfen bizimle iletişime geçin.</p>
-                <a href="#" class="link-button mt-4">Bize Ulaşın</a>
-            </div>
-        </footer>
-    </div>
-</body>
-</html>
+                <li class="flex flex-col sm:flex-row items-start sm:items-center justify-between">
+                    <span class="flex-1 mb-2 sm:mb-0">TaskPro API Tests-2025-08-21-10-10-52-333-0.html: Otomatik API testlerinin sonuçlarını içerir.</span>
+                    <a hre
