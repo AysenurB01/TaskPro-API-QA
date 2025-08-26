@@ -23,7 +23,7 @@ README.md: This file.
 Test Reports
 You can easily access the Newman test report from this link:
 
-Newman Test Report
+[Newman Test Raporu](https://aysenurb01.github.io/TaskPro-API-QA/TaskPro%20API%20Tests-2025-08-21-10-10-52-333-0.html)
 
 Getting Started
 Clone the repository to your computer.
