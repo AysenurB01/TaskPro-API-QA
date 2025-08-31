@@ -29,7 +29,7 @@ Our goal is to ensure the **reliability** and **performance** of the API.
 
 ## 🔗 Test Reports
 
-- [Newman HTML Test Report](https://aysenur01.github.io/TaskPro-API-QA/)
+[Newman HTML Test Report](https://aysenur01.github.io/TaskPro-API-QA/)
 
 ## 🎯 Project Goals
 
