@@ -42,3 +42,6 @@ With this project:
 - TestRail and Newman outputs provide standardized reporting
 
 - The overall quality assurance status of the project is clearly measured
+
+
+  Test için güncellendi.
