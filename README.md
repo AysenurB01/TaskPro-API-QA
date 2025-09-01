@@ -29,8 +29,6 @@ Our goal is to ensure the **reliability** and **performance** of the API.
 
 ## 🔗 Test Reports
 
-- ## 🔗 Test Reports
-
 - [📄 Test Report (PDF)](./Test%20Report.pdf)  
 - [📄 Performance Test Report (PDF)](./Performance-Test%20Report.pdf)  
 - [📄 Jira Bug Report (PDF)](./Jira%20Bug%20Report.pdf)  
