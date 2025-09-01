@@ -32,12 +32,12 @@ Our goal is to ensure the **reliability** and **performance** of the API.
 - ## 🔗 Test Reports
 
 - [📄 Test Report (PDF)](./Test%20Report.pdf)  
-- [📄 Performance Test Report (PDF)](./Performance%20Test%20Report.pdf)  
+- [📄 Performance Test Report (PDF)](./Performance-Test%20Report.pdf)  
 - [📄 Jira Bug Report (PDF)](./Jira%20Bug%20Report.pdf)  
 - [📄 Checklist (PDF)](./Checklist.pdf)  
 - [📄 TestRail Cases Report (PDF)](./TestRail-Cases%20Report.pdf)  
 - [📄 TestRail Run Report (PDF)](./TestRail-RUN%20Report.pdf)  
-- [📄 Newman HTML Test Report](./newman/TaskPro%20API%20Tests-2025-08-21-10-10-52-333-0.html)  
+- [📄 Newman HTML Test Report](./newman/TaskPro-API%20Tests-2025-08-21-10-10-52-333-0.html)  
 
 ## 🎯 Project Goals
 
