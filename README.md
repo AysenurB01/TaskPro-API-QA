@@ -37,7 +37,7 @@ Our goal is to ensure the **reliability** and **performance** of the API.
 - [📄 Checklist (PDF)](./Checklist.pdf)  
 - [📄 TestRail Cases Report (PDF)](./TestRail-Cases%20Report.pdf)  
 - [📄 TestRail Run Report (PDF)](./TestRail-RUN%20Report.pdf)  
-- [📄 Newman HTML Test Report](./newman/TaskPro-API%20Tests-2025-08-21-10-10-52-333-0.html)  
+- [📄 Newman HTML Test Report](./newman-report.html)  
 
 ## 🎯 Project Goals
 
